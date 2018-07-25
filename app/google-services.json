@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67294186974",
+    "firebase_url": "https://fir-app-b1e12.firebaseio.com",
+    "project_id": "fir-app-b1e12",
+    "storage_bucket": "fir-app-b1e12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67294186974:android:6587a3f69f876aa4",
+        "android_client_info": {
+          "package_name": "com.sarafinmahtab.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67294186974-vpnbep51iu04j1kt3aecokund5ptlkug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sarafinmahtab.firebaseapp",
+            "certificate_hash": "bc89c187fcc655f0c72cfd5ce2be76b704ef3161"
+          }
+        },
+        {
+          "client_id": "67294186974-gjqbi7abul2fpv3pp76hq95l9hpcfbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ7q_AWt9vYVDvVW2h2RinacAbL8TwqFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67294186974-gjqbi7abul2fpv3pp76hq95l9hpcfbl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
