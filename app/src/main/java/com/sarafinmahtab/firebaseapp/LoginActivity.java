@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         FirebaseUser user = firebaseAuth.getCurrentUser();
 
         if (user != null) {
-            Intent homeIntent = new Intent(LoginActivity.this, HomeActivity.class);
+            Intent homeIntent = new Intent(LoginActivity.this, MainActivity.class);
             homeIntent.putExtra("display_name", user.getDisplayName());
             startActivity(homeIntent);
 
@@ -64,7 +64,7 @@ public class LoginActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
 
                                     Intent homeIntent = new Intent(
-                                            LoginActivity.this, HomeActivity.class);
+                                            LoginActivity.this, MainActivity.class);
                                     homeIntent.putExtra("display_name", firebaseAuth.getCurrentUser().getDisplayName());
                                     startActivity(homeIntent);
                                     finish();
