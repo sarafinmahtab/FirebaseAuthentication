@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser user = firebaseAuth.getCurrentUser();
 
-        if (user != null){
+        if (user != null) {
             Intent homeIntent = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(homeIntent);
 
@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 } else {
                                     Toast.makeText(LoginActivity.this,
-                                            "Error result : "+task.getException(),
+                                            "Error result : " + task.getException(),
                                             Toast.LENGTH_SHORT).show();
                                 }
                             }

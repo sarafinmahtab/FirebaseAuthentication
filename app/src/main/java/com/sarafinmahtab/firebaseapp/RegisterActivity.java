@@ -99,7 +99,7 @@ public class RegisterActivity extends AppCompatActivity {
                             }
 
                         } else {
-                            Toast.makeText(RegisterActivity.this, "Error is "+task.getException(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "Error is " + task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
