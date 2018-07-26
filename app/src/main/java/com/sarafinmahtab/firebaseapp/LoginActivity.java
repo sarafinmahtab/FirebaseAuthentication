@@ -91,6 +91,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText emailEditText;
     private EditText passwordEditText;
 
+
+    //fffffffffffff
     private Button loginButton;
     private Button newUserButton;
 }
