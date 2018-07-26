@@ -92,7 +92,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                                 Intent homeIntent = new Intent(RegisterActivity.this, HomeActivity.class);
 
-                                homeIntent.putExtra("display_name", user.getDisplayName());
+                                homeIntent.putExtra("display_name", displayName);
 
                                 startActivity(homeIntent);
                                 finish();

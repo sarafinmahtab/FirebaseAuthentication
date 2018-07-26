@@ -38,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (user != null) {
             Intent homeIntent = new Intent(LoginActivity.this, HomeActivity.class);
+            homeIntent.putExtra("display_name", user.getDisplayName());
             startActivity(homeIntent);
 
             Log.d("Uid", user.getUid());
